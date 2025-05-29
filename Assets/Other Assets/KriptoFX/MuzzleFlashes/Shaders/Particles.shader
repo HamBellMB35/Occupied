@@ -66,6 +66,7 @@ Category {
 
                 fixed4 col = 2.0f * i.color * tex2D(_MainTex, i.texcoord);
                 UNITY_APPLY_FOG(i.fogCoord, col);
+                col.a = saturate(col.a);
                 return col;
             }
             ENDCG

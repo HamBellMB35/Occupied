@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Flame4
-  m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 3182757272d36d24c85dd4d09bfc8d41, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -32,4 +32,5 @@ Material:
     - _InvFade: 1.7489285
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _TintColor: {r: 1, g: 0.59665316, b: 0.39705884, a: 0.503}
+    - _TintColor: {r: 51.377876, g: 15.601659, b: 4.303906, a: 1}
+  m_BuildTextureStacks: []
