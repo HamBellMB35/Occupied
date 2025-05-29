@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.opsive.shared": {
+      "version": "file:com.opsive.shared",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.opsive.ultimatecharactercontroller": {
+      "version": "file:com.opsive.ultimatecharactercontroller",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.opsive.shared": "2.0.0"
+      }
+    },
     "com.unity.burst": {
       "version": "1.8.19",
       "depth": 2,
