@@ -7,8 +7,8 @@ PackageManifestImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 233710
-  packageName: Ultimate Character Controller
-  packageVersion: 3.2.2
+  productId: 298743
+  packageName: Behavior Designer Pro - DOTS Powered Behavior Trees
+  packageVersion: 2.0.10p2
   assetPath: Packages/com.opsive.shared/package.json
-  uploadId: 746001
+  uploadId: 757245

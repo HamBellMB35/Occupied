@@ -1,160 +1,465 @@
 fileFormatVersion: 2
 guid: fb8e089490db8244eb698360ae3c2d57
+AssetOrigin:
+  serializedVersion: 1
+  productId: 185539
+  packageName: Alien #3
+  packageVersion: 1.0
+  assetPath: Assets/Alien#3/Meshes/Alien#3_skin3.FBX
+  uploadId: 407577
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Alien_v3
-    100004: ball_01_l
-    100006: ball_01_r
-    100008: ball_l
-    100010: ball_r
-    100012: calf_l
-    100014: calf_r
-    100016: calf_twist_01_l
-    100018: calf_twist_01_r
-    100020: clavicle_l
-    100022: clavicle_r
-    100024: elbow_l
-    100026: elbow_r
-    100028: foot_l
-    100030: foot_r
-    100032: Gun
-    100034: gun_dummy
-    100036: hand_l
-    100038: hand_r
-    100040: head
-    100042: heel_l
-    100044: heel_r
-    100046: holster_r
-    100048: index_01_l
-    100050: index_01_r
-    100052: index_02_l
-    100054: index_02_r
-    100056: index_03_l
-    100058: index_03_r
-    100060: knee_l
-    100062: knee_r
-    100064: lowerarm_l
-    100066: lowerarm_r
-    100068: lowerarm_twist_01_l
-    100070: lowerarm_twist_01_r
-    100072: middle_01_l
-    100074: middle_01_r
-    100076: middle_02_l
-    100078: middle_02_r
-    100080: middle_03_l
-    100082: middle_03_r
-    100084: neck_01
-    100086: pelvis
-    100088: ring_01_l
-    100090: ring_01_r
-    100092: ring_02_l
-    100094: ring_02_r
-    100096: ring_03_l
-    100098: ring_03_r
-    100100: Root
-    100102: shoulder_l
-    100104: shoulder_r
-    100106: spine_01
-    100108: spine_02
-    100110: spine_03
-    100112: thigh_l
-    100114: thigh_r
-    100116: thigh_twist_01_l
-    100118: thigh_twist_01_r
-    100120: thumb_01_l
-    100122: thumb_01_r
-    100124: thumb_02_l
-    100126: thumb_02_r
-    100128: thumb_03_l
-    100130: thumb_03_r
-    100132: upperarm_l
-    100134: upperarm_r
-    400000: //RootNode
-    400002: Alien_v3
-    400004: ball_01_l
-    400006: ball_01_r
-    400008: ball_l
-    400010: ball_r
-    400012: calf_l
-    400014: calf_r
-    400016: calf_twist_01_l
-    400018: calf_twist_01_r
-    400020: clavicle_l
-    400022: clavicle_r
-    400024: elbow_l
-    400026: elbow_r
-    400028: foot_l
-    400030: foot_r
-    400032: Gun
-    400034: gun_dummy
-    400036: hand_l
-    400038: hand_r
-    400040: head
-    400042: heel_l
-    400044: heel_r
-    400046: holster_r
-    400048: index_01_l
-    400050: index_01_r
-    400052: index_02_l
-    400054: index_02_r
-    400056: index_03_l
-    400058: index_03_r
-    400060: knee_l
-    400062: knee_r
-    400064: lowerarm_l
-    400066: lowerarm_r
-    400068: lowerarm_twist_01_l
-    400070: lowerarm_twist_01_r
-    400072: middle_01_l
-    400074: middle_01_r
-    400076: middle_02_l
-    400078: middle_02_r
-    400080: middle_03_l
-    400082: middle_03_r
-    400084: neck_01
-    400086: pelvis
-    400088: ring_01_l
-    400090: ring_01_r
-    400092: ring_02_l
-    400094: ring_02_r
-    400096: ring_03_l
-    400098: ring_03_r
-    400100: Root
-    400102: shoulder_l
-    400104: shoulder_r
-    400106: spine_01
-    400108: spine_02
-    400110: spine_03
-    400112: thigh_l
-    400114: thigh_r
-    400116: thigh_twist_01_l
-    400118: thigh_twist_01_r
-    400120: thumb_01_l
-    400122: thumb_01_r
-    400124: thumb_02_l
-    400126: thumb_02_r
-    400128: thumb_03_l
-    400130: thumb_03_r
-    400132: upperarm_l
-    400134: upperarm_r
-    2100000: Vray_Body
-    2100002: Vray_Armor
-    2100004: Vray_Gun
-    2100006: No Name
-    2300000: Gun
-    2300002: Root
-    3300000: Gun
-    3300002: Root
-    4300000: Alien_v3
-    4300002: Gun
-    4300004: Root
-    9500000: //RootNode
-    13700000: Alien_v3
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Alien_v3
+  - first:
+      1: 100004
+    second: ball_01_l
+  - first:
+      1: 100006
+    second: ball_01_r
+  - first:
+      1: 100008
+    second: ball_l
+  - first:
+      1: 100010
+    second: ball_r
+  - first:
+      1: 100012
+    second: calf_l
+  - first:
+      1: 100014
+    second: calf_r
+  - first:
+      1: 100016
+    second: calf_twist_01_l
+  - first:
+      1: 100018
+    second: calf_twist_01_r
+  - first:
+      1: 100020
+    second: clavicle_l
+  - first:
+      1: 100022
+    second: clavicle_r
+  - first:
+      1: 100024
+    second: elbow_l
+  - first:
+      1: 100026
+    second: elbow_r
+  - first:
+      1: 100028
+    second: foot_l
+  - first:
+      1: 100030
+    second: foot_r
+  - first:
+      1: 100032
+    second: Gun
+  - first:
+      1: 100034
+    second: gun_dummy
+  - first:
+      1: 100036
+    second: hand_l
+  - first:
+      1: 100038
+    second: hand_r
+  - first:
+      1: 100040
+    second: head
+  - first:
+      1: 100042
+    second: heel_l
+  - first:
+      1: 100044
+    second: heel_r
+  - first:
+      1: 100046
+    second: holster_r
+  - first:
+      1: 100048
+    second: index_01_l
+  - first:
+      1: 100050
+    second: index_01_r
+  - first:
+      1: 100052
+    second: index_02_l
+  - first:
+      1: 100054
+    second: index_02_r
+  - first:
+      1: 100056
+    second: index_03_l
+  - first:
+      1: 100058
+    second: index_03_r
+  - first:
+      1: 100060
+    second: knee_l
+  - first:
+      1: 100062
+    second: knee_r
+  - first:
+      1: 100064
+    second: lowerarm_l
+  - first:
+      1: 100066
+    second: lowerarm_r
+  - first:
+      1: 100068
+    second: lowerarm_twist_01_l
+  - first:
+      1: 100070
+    second: lowerarm_twist_01_r
+  - first:
+      1: 100072
+    second: middle_01_l
+  - first:
+      1: 100074
+    second: middle_01_r
+  - first:
+      1: 100076
+    second: middle_02_l
+  - first:
+      1: 100078
+    second: middle_02_r
+  - first:
+      1: 100080
+    second: middle_03_l
+  - first:
+      1: 100082
+    second: middle_03_r
+  - first:
+      1: 100084
+    second: neck_01
+  - first:
+      1: 100086
+    second: pelvis
+  - first:
+      1: 100088
+    second: ring_01_l
+  - first:
+      1: 100090
+    second: ring_01_r
+  - first:
+      1: 100092
+    second: ring_02_l
+  - first:
+      1: 100094
+    second: ring_02_r
+  - first:
+      1: 100096
+    second: ring_03_l
+  - first:
+      1: 100098
+    second: ring_03_r
+  - first:
+      1: 100100
+    second: Root
+  - first:
+      1: 100102
+    second: shoulder_l
+  - first:
+      1: 100104
+    second: shoulder_r
+  - first:
+      1: 100106
+    second: spine_01
+  - first:
+      1: 100108
+    second: spine_02
+  - first:
+      1: 100110
+    second: spine_03
+  - first:
+      1: 100112
+    second: thigh_l
+  - first:
+      1: 100114
+    second: thigh_r
+  - first:
+      1: 100116
+    second: thigh_twist_01_l
+  - first:
+      1: 100118
+    second: thigh_twist_01_r
+  - first:
+      1: 100120
+    second: thumb_01_l
+  - first:
+      1: 100122
+    second: thumb_01_r
+  - first:
+      1: 100124
+    second: thumb_02_l
+  - first:
+      1: 100126
+    second: thumb_02_r
+  - first:
+      1: 100128
+    second: thumb_03_l
+  - first:
+      1: 100130
+    second: thumb_03_r
+  - first:
+      1: 100132
+    second: upperarm_l
+  - first:
+      1: 100134
+    second: upperarm_r
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Alien_v3
+  - first:
+      4: 400004
+    second: ball_01_l
+  - first:
+      4: 400006
+    second: ball_01_r
+  - first:
+      4: 400008
+    second: ball_l
+  - first:
+      4: 400010
+    second: ball_r
+  - first:
+      4: 400012
+    second: calf_l
+  - first:
+      4: 400014
+    second: calf_r
+  - first:
+      4: 400016
+    second: calf_twist_01_l
+  - first:
+      4: 400018
+    second: calf_twist_01_r
+  - first:
+      4: 400020
+    second: clavicle_l
+  - first:
+      4: 400022
+    second: clavicle_r
+  - first:
+      4: 400024
+    second: elbow_l
+  - first:
+      4: 400026
+    second: elbow_r
+  - first:
+      4: 400028
+    second: foot_l
+  - first:
+      4: 400030
+    second: foot_r
+  - first:
+      4: 400032
+    second: Gun
+  - first:
+      4: 400034
+    second: gun_dummy
+  - first:
+      4: 400036
+    second: hand_l
+  - first:
+      4: 400038
+    second: hand_r
+  - first:
+      4: 400040
+    second: head
+  - first:
+      4: 400042
+    second: heel_l
+  - first:
+      4: 400044
+    second: heel_r
+  - first:
+      4: 400046
+    second: holster_r
+  - first:
+      4: 400048
+    second: index_01_l
+  - first:
+      4: 400050
+    second: index_01_r
+  - first:
+      4: 400052
+    second: index_02_l
+  - first:
+      4: 400054
+    second: index_02_r
+  - first:
+      4: 400056
+    second: index_03_l
+  - first:
+      4: 400058
+    second: index_03_r
+  - first:
+      4: 400060
+    second: knee_l
+  - first:
+      4: 400062
+    second: knee_r
+  - first:
+      4: 400064
+    second: lowerarm_l
+  - first:
+      4: 400066
+    second: lowerarm_r
+  - first:
+      4: 400068
+    second: lowerarm_twist_01_l
+  - first:
+      4: 400070
+    second: lowerarm_twist_01_r
+  - first:
+      4: 400072
+    second: middle_01_l
+  - first:
+      4: 400074
+    second: middle_01_r
+  - first:
+      4: 400076
+    second: middle_02_l
+  - first:
+      4: 400078
+    second: middle_02_r
+  - first:
+      4: 400080
+    second: middle_03_l
+  - first:
+      4: 400082
+    second: middle_03_r
+  - first:
+      4: 400084
+    second: neck_01
+  - first:
+      4: 400086
+    second: pelvis
+  - first:
+      4: 400088
+    second: ring_01_l
+  - first:
+      4: 400090
+    second: ring_01_r
+  - first:
+      4: 400092
+    second: ring_02_l
+  - first:
+      4: 400094
+    second: ring_02_r
+  - first:
+      4: 400096
+    second: ring_03_l
+  - first:
+      4: 400098
+    second: ring_03_r
+  - first:
+      4: 400100
+    second: Root
+  - first:
+      4: 400102
+    second: shoulder_l
+  - first:
+      4: 400104
+    second: shoulder_r
+  - first:
+      4: 400106
+    second: spine_01
+  - first:
+      4: 400108
+    second: spine_02
+  - first:
+      4: 400110
+    second: spine_03
+  - first:
+      4: 400112
+    second: thigh_l
+  - first:
+      4: 400114
+    second: thigh_r
+  - first:
+      4: 400116
+    second: thigh_twist_01_l
+  - first:
+      4: 400118
+    second: thigh_twist_01_r
+  - first:
+      4: 400120
+    second: thumb_01_l
+  - first:
+      4: 400122
+    second: thumb_01_r
+  - first:
+      4: 400124
+    second: thumb_02_l
+  - first:
+      4: 400126
+    second: thumb_02_r
+  - first:
+      4: 400128
+    second: thumb_03_l
+  - first:
+      4: 400130
+    second: thumb_03_r
+  - first:
+      4: 400132
+    second: upperarm_l
+  - first:
+      4: 400134
+    second: upperarm_r
+  - first:
+      21: 2100000
+    second: Vray_Body
+  - first:
+      21: 2100002
+    second: Vray_Armor
+  - first:
+      21: 2100004
+    second: Vray_Gun
+  - first:
+      21: 2100006
+    second: No Name
+  - first:
+      23: 2300000
+    second: Gun
+  - first:
+      23: 2300002
+    second: Root
+  - first:
+      33: 3300000
+    second: Gun
+  - first:
+      33: 3300002
+    second: Root
+  - first:
+      43: 4300000
+    second: Alien_v3
+  - first:
+      43: 4300002
+    second: Gun
+  - first:
+      43: 4300004
+    second: Root
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Alien_v3
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -163,16 +468,15 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -187,25 +491,36 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -214,10 +529,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -227,21 +542,20 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 185539
-  packageName: Alien #3
-  packageVersion: 1.0
-  assetPath: Assets/Alien#3/Meshes/Alien#3_skin3.FBX
-  uploadId: 407577

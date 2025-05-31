@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.opsive.graphdesigner": {
+      "version": "file:com.opsive.graphdesigner",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.opsive.shared": "2.0.0"
+      }
+    },
     "com.opsive.shared": {
       "version": "file:com.opsive.shared",
       "depth": 0,
@@ -13,6 +21,15 @@
       "dependencies": {
         "com.opsive.shared": "2.0.0"
       }
+    },
+    "com.unity.ai.navigation": {
+      "version": "2.0.8",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.ai": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
       "version": "1.8.19",
