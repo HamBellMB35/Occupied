@@ -24,13 +24,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 867656445804752028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.781, y: 0.067, z: 0}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.787, y: 0.107, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8718114939554557930}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1523851356274106018
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,9 +142,9 @@ MonoBehaviour:
         m_AudioConfig: {fileID: 0}
         m_AudioClips: []
   m_UIMonitorID: 0
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 21300056, guid: 5fb67c614ba76ca45a811c8e1f7be476, type: 3}
   m_ShowCrosshairsOnAim: 1
-  m_CenterCrosshairs: {fileID: 0}
+  m_CenterCrosshairs: {fileID: 21300056, guid: 5fb67c614ba76ca45a811c8e1f7be476, type: 3}
   m_QuadrantOffset: 5
   m_MaxQuadrantSpread: 10
   m_QuadrantSpreadDamping: 0.05
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_TopCrosshairs: {fileID: 0}
   m_RightCrosshairs: {fileID: 0}
   m_BottomCrosshairs: {fileID: 0}
-  m_ShowFullScreenUI: 0
+  m_ShowFullScreenUI: 1
   m_FullScreenUIID: -1
   m_PickupItemEvent:
     m_PersistentCalls:
@@ -266,7 +266,6 @@ MonoBehaviour:
     - rid: 3853224869577621794
     - rid: 3853224869577621795
     - rid: 3853224869577622083
-    - rid: 3853224869577622109
   m_DryFireEffectsModuleGroup:
     m_Modules:
     - rid: 3853224869577621796
@@ -303,7 +302,7 @@ MonoBehaviour:
           m_Priority: 100
         m_UseAnimatorAudioStateSet:
           m_AnimatorAudioStateSelector:
-            rid: 3853224869577621801
+            rid: 3853224910246117644
           m_States:
           - m_States:
             - m_Name: Default
@@ -579,7 +578,7 @@ MonoBehaviour:
           m_WaitForAnimationEvent: 1
           m_Duration: 0.1
           m_WaitForSlotEvent: 0
-        m_ReloadDetachAttachClip: 0
+        m_ReloadDetachAttachClip: 1
         m_ReloadDetachClipEvent:
           m_WaitForAnimationEvent: 1
           m_Duration: 0.4
@@ -641,10 +640,6 @@ MonoBehaviour:
         m_Priority: 0
         m_ShowLoaded: 1
         m_ShowUnloaded: 1
-    - rid: 3853224869577621801
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
-      data:
-        m_ResetDelay: -1
     - rid: 3853224869577621802
       type: {class: CheckTargetImpactConditionBehaviour, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
@@ -748,19 +743,10 @@ MonoBehaviour:
           - {fileID: 8300000, guid: c80cfae610d4ffe4db400e4efc746b15, type: 3}
           - {fileID: 8300000, guid: aaab68eccc1f78c4b89b58f1f1ce2b8d, type: 3}
           - {fileID: 8300000, guid: 26d7a8c629ee09f4ab40b3f0be069693, type: 3}
-    - rid: 3853224869577622109
-      type: {class: CrosshairsSpread, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
+    - rid: 3853224910246117644
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
-        m_States:
-        - m_Name: Default
-          m_Preset: {fileID: 0}
-          m_BlockList: []
-          m_Default: 1
-        m_Bindings:
-          m_Bindings: []
-        m_Enabled: 1
-        m_ID: 5
-        m_Name: 
+        m_ResetDelay: -1
 --- !u!1 &4143477404065065986
 GameObject:
   m_ObjectHideFlags: 0
