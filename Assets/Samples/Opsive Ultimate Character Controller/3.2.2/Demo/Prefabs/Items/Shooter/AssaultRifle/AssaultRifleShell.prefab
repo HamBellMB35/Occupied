@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 54657631340720356}
   - component: {fileID: 82977466066619296}
   m_Layer: 28
-  m_Name: GoodShell
+  m_Name: AssaultRifleShell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

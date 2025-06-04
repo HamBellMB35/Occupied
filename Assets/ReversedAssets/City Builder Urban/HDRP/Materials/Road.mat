@@ -42,7 +42,7 @@ Material:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
   - RayTracingPrepass
-  m_LockedProperties: 
+  m_LockedProperties: _DoubleSidedEnable
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
