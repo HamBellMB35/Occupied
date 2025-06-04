@@ -13,14 +13,11 @@ MonoBehaviour:
   m_Name: PavementSurfaceEffect
   m_EditorClassIdentifier: 
   m_SpawnedObjects:
-  - m_Object: {fileID: 108086, guid: 547c2e12da8d4214098216299e70a3ba, type: 3}
+  - m_Object: {fileID: 142740, guid: ce4fb833f44504e48b46c3474bc747fc, type: 3}
     m_Probability: 0.35
     m_RandomSpin: 1
   - m_Object: {fileID: 142740, guid: ce4fb833f44504e48b46c3474bc747fc, type: 3}
     m_Probability: 0.35
-    m_RandomSpin: 1
-  - m_Object: {fileID: 186004, guid: df6885b13dec8be4582be8c2c2219da2, type: 3}
-    m_Probability: 0.3
     m_RandomSpin: 1
   m_Decals: []
   m_MinDecalScale: 0.196

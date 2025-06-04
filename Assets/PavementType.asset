@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 696b92c305704c84fb3f7a11d0c474fd, type: 3}
   m_Name: PavementType
   m_EditorClassIdentifier: 
-  m_ImpactEffects: []
+  m_ImpactEffects:
+  - m_SurfaceImpact: {fileID: 11400000, guid: 69f9bfe74da34194b9883d9680750627, type: 2}
+    m_SurfaceEffect: {fileID: 11400000, guid: 5416b1e443147444aa297d42c40bffd8, type: 2}
   m_AllowFootprints: 1
