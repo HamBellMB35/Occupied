@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &159627012963087685
+--- !u!1 &1018406019184256682
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,98 +8,106 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9120653867155724847}
-  - component: {fileID: 6183024867969171770}
-  - component: {fileID: 6508393126658363671}
-  - component: {fileID: 8421022886519736386}
-  - component: {fileID: 3261339682688561151}
-  - component: {fileID: 7031961211567418527}
-  - component: {fileID: 3490119682141979193}
-  m_Layer: 30
-  m_Name: ThirdPersonMyPulseRifle
+  - component: {fileID: 6531097987263896088}
+  m_Layer: 0
+  m_Name: MuzzleFlashLocation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9120653867155724847
+--- !u!4 &6531097987263896088
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159627012963087685}
+  m_GameObject: {fileID: 1018406019184256682}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4202214224624585704}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2210123652833936293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3887657651520547113}
+  m_Layer: 0
+  m_Name: FirePointLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3887657651520547113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210123652833936293}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4202214224624585704}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2885733944879609771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4202214224624585704}
+  - component: {fileID: 8750243104304714647}
+  - component: {fileID: 3069571047148558570}
+  - component: {fileID: 2859316807098618485}
+  - component: {fileID: 8928300622658355138}
+  m_Layer: 30
+  m_Name: ThirdPersonMyAIPulseRifle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4202214224624585704
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2885733944879609771}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8895538641807025630}
-  - {fileID: 6055948761501878234}
-  - {fileID: 3428675495355219853}
-  m_Father: {fileID: 6171382202073091512}
-  m_LocalEulerAnglesHint: {x: 0, y: 94.249, z: 0}
---- !u!33 &6183024867969171770
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159627012963087685}
-  m_Mesh: {fileID: -1463823995199888294, guid: 4ef3d7fc1da11b44e8ede5e3e9c3a4ac, type: 3}
---- !u!23 &6508393126658363671
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159627012963087685}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 50a48c8448f6daa4285218f987ae729f, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &8421022886519736386
+  - {fileID: 7720900677283056075}
+  - {fileID: 3887657651520547113}
+  - {fileID: 6531097987263896088}
+  - {fileID: 5568851514246474137}
+  m_Father: {fileID: 5554084964526374744}
+  m_LocalEulerAnglesHint: {x: 0, y: 176.948, z: 0}
+--- !u!114 &8750243104304714647
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159627012963087685}
+  m_GameObject: {fileID: 2885733944879609771}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: edead2b42b914a84faf341ae0d10c805, type: 3}
@@ -112,13 +120,13 @@ MonoBehaviour:
     m_Default: 1
   m_ForceVisible: 0
   m_FirstPersonVisibleOnDeath: 0
---- !u!82 &3261339682688561151
+--- !u!82 &3069571047148558570
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159627012963087685}
+  m_GameObject: {fileID: 2885733944879609771}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -209,14 +217,14 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!95 &7031961211567418527
+--- !u!95 &2859316807098618485
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159627012963087685}
+  m_GameObject: {fileID: 2885733944879609771}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ca5369d9c20a80448a3ef540bff0f573, type: 2}
@@ -231,19 +239,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3490119682141979193
+--- !u!114 &8928300622658355138
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159627012963087685}
+  m_GameObject: {fileID: 2885733944879609771}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 527b6ce4c43b6dd458111a6670a3de65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &908364746665288320
+--- !u!1 &4200153550301560115
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -251,7 +259,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3428675495355219853}
+  - component: {fileID: 5568851514246474137}
   m_Layer: 0
   m_Name: ShellLocation
   m_TagString: Untagged
@@ -259,22 +267,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3428675495355219853
+--- !u!4 &5568851514246474137
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 908364746665288320}
+  m_GameObject: {fileID: 4200153550301560115}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.2900143, z: -0, w: 0.95702237}
-  m_LocalPosition: {x: 0, y: 0.181, z: 0.098}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 9120653867155724847}
-  m_LocalEulerAnglesHint: {x: 0, y: -33.718, z: 0}
---- !u!1 &5654044847848533340
+  m_Father: {fileID: 4202214224624585704}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5356549707363177581
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -282,40 +290,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6171382202073091512}
-  - component: {fileID: 2315541805868414228}
-  - component: {fileID: 7870214219212169200}
-  - component: {fileID: 7631177802835249466}
+  - component: {fileID: 5554084964526374744}
+  - component: {fileID: 5371750337986316024}
+  - component: {fileID: 5777284082895321185}
+  - component: {fileID: 4578260298289601523}
   m_Layer: 0
-  m_Name: MyPulseRifle
+  m_Name: MyAIPulseRifle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6171382202073091512
+--- !u!4 &5554084964526374744
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5654044847848533340}
+  m_GameObject: {fileID: 5356549707363177581}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 9120653867155724847}
+  - {fileID: 4202214224624585704}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2315541805868414228
+--- !u!114 &5371750337986316024
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5654044847848533340}
+  m_GameObject: {fileID: 5356549707363177581}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e73d2e6c883c6804c87c5da983c35d7e, type: 3}
@@ -326,7 +334,7 @@ MonoBehaviour:
     m_Preset: {fileID: 0}
     m_BlockList: []
     m_Default: 1
-  m_ItemDefinition: {fileID: 6837805161832394520, guid: ad09ad8bb1bdff447bc4738415faae7e, type: 2}
+  m_ItemDefinition: {fileID: -468869170540441263, guid: fb57f1e457842ef48941accc8acff434, type: 2}
   m_SlotID: 0
   m_AnimatorItemID: 1
   m_AnimatorMovementSetID: 0
@@ -344,7 +352,7 @@ MonoBehaviour:
     m_WaitForSlotEvent: 0
   m_EquipAnimatorAudioStateSet:
     m_AnimatorAudioStateSelector:
-      rid: 953176576307495036
+      rid: 953176634573717603
     m_States:
     - m_States:
       - m_Name: Default
@@ -358,7 +366,8 @@ MonoBehaviour:
       m_ItemSubstateIndex: 0
       m_AudioClipSet:
         m_AudioConfig: {fileID: 0}
-        m_AudioClips: []
+        m_AudioClips:
+        - {fileID: 0}
   m_UnequipEvent:
     m_WaitForAnimationEvent: 0
     m_Duration: 0.3
@@ -369,7 +378,7 @@ MonoBehaviour:
     m_WaitForSlotEvent: 0
   m_UnequipAnimatorAudioStateSet:
     m_AnimatorAudioStateSelector:
-      rid: 953176576307495037
+      rid: 953176634573717604
     m_States:
     - m_States:
       - m_Name: Default
@@ -385,16 +394,16 @@ MonoBehaviour:
         m_AudioConfig: {fileID: 0}
         m_AudioClips: []
   m_UIMonitorID: 0
-  m_Icon: {fileID: 21300090, guid: 5fb67c614ba76ca45a811c8e1f7be476, type: 3}
+  m_Icon: {fileID: 0}
   m_ShowCrosshairsOnAim: 1
-  m_CenterCrosshairs: {fileID: 21300056, guid: 5fb67c614ba76ca45a811c8e1f7be476, type: 3}
-  m_QuadrantOffset: 7
-  m_MaxQuadrantSpread: 11
-  m_QuadrantSpreadDamping: 0.25
-  m_LeftCrosshairs: {fileID: 21300064, guid: 5fb67c614ba76ca45a811c8e1f7be476, type: 3}
-  m_TopCrosshairs: {fileID: 21300058, guid: 5fb67c614ba76ca45a811c8e1f7be476, type: 3}
-  m_RightCrosshairs: {fileID: 21300062, guid: 5fb67c614ba76ca45a811c8e1f7be476, type: 3}
-  m_BottomCrosshairs: {fileID: 21300060, guid: 5fb67c614ba76ca45a811c8e1f7be476, type: 3}
+  m_CenterCrosshairs: {fileID: 0}
+  m_QuadrantOffset: 5
+  m_MaxQuadrantSpread: 10
+  m_QuadrantSpreadDamping: 0.05
+  m_LeftCrosshairs: {fileID: 0}
+  m_TopCrosshairs: {fileID: 0}
+  m_RightCrosshairs: {fileID: 0}
+  m_BottomCrosshairs: {fileID: 0}
   m_ShowFullScreenUI: 0
   m_FullScreenUIID: -1
   m_PickupItemEvent:
@@ -412,21 +421,21 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 953176576307495036
+    - rid: 953176634573717603
       type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
-    - rid: 953176576307495037
+    - rid: 953176634573717604
       type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
---- !u!114 &7870214219212169200
+--- !u!114 &5777284082895321185
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5654044847848533340}
+  m_GameObject: {fileID: 5356549707363177581}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5b5dc98af0593b4589b67fcfc5b4c85, type: 3}
@@ -437,25 +446,25 @@ MonoBehaviour:
     m_Preset: {fileID: 0}
     m_BlockList: []
     m_Default: 1
-  m_Object: {fileID: 159627012963087685}
+  m_Object: {fileID: 2885733944879609771}
   m_SpawnParent:
     m_ID: -1
     m_Object: {fileID: 0}
   m_LocalSpawnPosition: {x: 0.14, y: 0, z: 0.003}
   m_LocalSpawnRotation: {x: -102.85, y: 105.116, z: 59.546}
-  m_LocalSpawnScale: {x: 0.285, y: 0.285, z: 0.285}
+  m_LocalSpawnScale: {x: 1, y: 1, z: 1}
   m_NonDominantHandIKTarget: {fileID: 0}
   m_NonDominantHandIKTargetHint: {fileID: 0}
   m_HolsterTarget:
     m_ID: -1
     m_Object: {fileID: 0}
---- !u!114 &7631177802835249466
+--- !u!114 &4578260298289601523
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5654044847848533340}
+  m_GameObject: {fileID: 5356549707363177581}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ebb0968eac9d95c4dba0758d04feb1c3, type: 3}
@@ -470,7 +479,7 @@ MonoBehaviour:
   m_ActionName: Shootable 1
   m_ActionDescription: 
   m_DebugLogger:
-    m_DebugAction: 0
+    m_DebugAction: 1
     m_CharacterItemActionDebugModuleType: 1
   m_UseRate: 0.1
   m_FaceTarget: 1
@@ -487,45 +496,45 @@ MonoBehaviour:
   m_ForceRootMotionRotation: 0
   m_TriggerActionModuleGroup:
     m_Modules:
-    - rid: 953176576307495038
+    - rid: 953176634573717605
   m_UsableActionModuleGroup:
     m_Modules: []
   m_ShooterModuleGroup:
     m_Modules:
-    - rid: 953176576307495039
+    - rid: 953176634573717606
   m_AmmoModuleGroup:
     m_Modules:
-    - rid: 953176576307495040
+    - rid: 953176634573717607
   m_ClipModuleGroup:
     m_Modules:
-    - rid: 953176576307495041
+    - rid: 953176634573717608
   m_ProjectileModuleGroup:
     m_Modules:
-    - rid: 953176576307495042
+    - rid: 953176634573717609
   m_FireEffectsModuleGroup:
     m_Modules:
-    - rid: 953176576307495044
-    - rid: 953176576307495043
-    - rid: 953176576307495045
-    - rid: 953176576307495046
-    - rid: 953176600542183529
+    - rid: 953176634573717685
+    - rid: 953176634573717686
+    - rid: 953176634573717687
+    - rid: 953176634573717688
+    - rid: 953176634573717689
   m_DryFireEffectsModuleGroup:
     m_Modules:
-    - rid: 953176576307495047
+    - rid: 953176634573717614
   m_ImpactModuleGroup:
     m_Modules:
-    - rid: 953176576307495048
+    - rid: 953176634573717615
   m_ReloaderModuleGroup:
     m_Modules:
-    - rid: 953176576307495049
+    - rid: 953176634573717616
   m_ExtraModuleGroup:
     m_Modules:
-    - rid: 953176576307495050
-    - rid: 953176576307495051
+    - rid: 953176634573717617
+    - rid: 953176634573717618
   references:
     version: 2
     RefIds:
-    - rid: 953176576307495038
+    - rid: 953176634573717605
       type: {class: Repeat, ns: Opsive.UltimateCharacterController.Items.Actions.Modules, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -545,7 +554,7 @@ MonoBehaviour:
           m_Priority: 100
         m_UseAnimatorAudioStateSet:
           m_AnimatorAudioStateSelector:
-            rid: 953176576307495052
+            rid: 953176634573717619
           m_States:
           - m_States:
             - m_Name: Default
@@ -562,7 +571,7 @@ MonoBehaviour:
               m_AudioClips: []
         m_CanStopIfInputStop: 0
         m_CanStopSubstateIndexAddition: 10
-    - rid: 953176576307495039
+    - rid: 953176634573717606
       type: {class: HitscanShooter, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -586,7 +595,7 @@ MonoBehaviour:
         m_Tracer: {fileID: 0}
         m_TracerDefaultLength: 100
         m_TracerSpawnDelay: 0
-        m_Spread: 0.01
+        m_Spread: 0.1
         m_FireCount: 1
         m_FirePointLocation:
           m_FirstPerson:
@@ -594,7 +603,7 @@ MonoBehaviour:
             m_Object: {fileID: 0}
           m_ThirdPerson:
             m_ID: -1
-            m_Object: {fileID: 8895538641807025630}
+            m_Object: {fileID: 3887657651520547113}
         m_TracerLocation:
           m_FirstPerson:
             m_ID: -1
@@ -602,7 +611,7 @@ MonoBehaviour:
           m_ThirdPerson:
             m_ID: -1
             m_Object: {fileID: 0}
-    - rid: 953176576307495040
+    - rid: 953176634573717607
       type: {class: ItemAmmo, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -615,10 +624,10 @@ MonoBehaviour:
         m_Enabled: 1
         m_ID: -1
         m_Name: 
-        m_AmmoItemDefinition: {fileID: 5317412601949010467, guid: ad09ad8bb1bdff447bc4738415faae7e, type: 2}
+        m_AmmoItemDefinition: {fileID: -3460753007830636725, guid: fb57f1e457842ef48941accc8acff434, type: 2}
         m_DropOption: 2
         m_SharedAmmoItemIdentifier: 0
-    - rid: 953176576307495041
+    - rid: 953176634573717608
       type: {class: SimpleClip, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -631,8 +640,8 @@ MonoBehaviour:
         m_Enabled: 1
         m_ID: -1
         m_Name: 
-        m_ClipSize: 50
-    - rid: 953176576307495042
+        m_ClipSize: 20
+    - rid: 953176634573717609
       type: {class: BasicProjectile, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -645,103 +654,7 @@ MonoBehaviour:
         m_Enabled: 1
         m_ID: -1
         m_Name: 
-    - rid: 953176576307495043
-      type: {class: MuzzleEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
-      data:
-        m_States:
-        - m_Name: Default
-          m_Preset: {fileID: 0}
-          m_BlockList: []
-          m_Default: 1
-        m_Bindings:
-          m_Bindings: []
-        m_Enabled: 1
-        m_ID: -1
-        m_Name: 
-        m_MuzzleFlash: {fileID: 153266, guid: a9053ac253b0e0d4394e96a67adf0b6f, type: 3}
-        m_PoolMuzzleFlash: 1
-        m_MuzzleLocation:
-          m_FirstPerson:
-            m_ID: -1
-            m_Object: {fileID: 0}
-          m_ThirdPerson:
-            m_ID: -1
-            m_Object: {fileID: 6055948761501878234}
-    - rid: 953176576307495044
-      type: {class: ShellEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
-      data:
-        m_States:
-        - m_Name: Default
-          m_Preset: {fileID: 0}
-          m_BlockList: []
-          m_Default: 1
-        m_Bindings:
-          m_Bindings: []
-        m_Enabled: 1
-        m_ID: -1
-        m_Name: 
-        m_Shell: {fileID: 1095859200011794, guid: ce2dafee6bbd4be44b4116aae032c19b, type: 3}
-        m_ShellVelocity:
-          m_MinValue: {x: 3, y: 0, z: 0}
-          m_MaxValue: {x: 4, y: 2, z: 0}
-          m_MinMagnitude: {x: 0, y: 0, z: 0}
-        m_ShellTorque:
-          m_MinValue: {x: -50, y: -50, z: -50}
-          m_MaxValue: {x: 50, y: 50, z: 50}
-          m_MinMagnitude: {x: 0, y: 0, z: 0}
-        m_ShellEjectDelay: 0
-        m_ShellLocation:
-          m_FirstPerson:
-            m_ID: -1
-            m_Object: {fileID: 0}
-          m_ThirdPerson:
-            m_ID: -1
-            m_Object: {fileID: 3428675495355219853}
-    - rid: 953176576307495045
-      type: {class: RecoilEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
-      data:
-        m_States:
-        - m_Name: Default
-          m_Preset: {fileID: 0}
-          m_BlockList: []
-          m_Default: 1
-        m_Bindings:
-          m_Bindings: []
-        m_Enabled: 1
-        m_ID: -1
-        m_Name: 
-        m_PositionRecoil:
-          m_MinValue: {x: 0, y: 0, z: -0.3}
-          m_MaxValue: {x: 0, y: 0.01, z: -0.1}
-          m_MinMagnitude: {x: 0, y: 0, z: 0}
-        m_RotationRecoil:
-          m_MinValue: {x: -0.5, y: -0.5, z: 0}
-          m_MaxValue: {x: 0.5, y: 0.5, z: 0}
-          m_MinMagnitude: {x: 0, y: 0, z: 0}
-        m_PositionCameraRecoil:
-          m_MinValue: {x: 0, y: 0, z: 0}
-          m_MaxValue: {x: 0, y: 0, z: 0}
-          m_MinMagnitude: {x: 0, y: 0, z: 0}
-        m_RotationCameraRecoil:
-          m_MinValue: {x: -2, y: -1, z: 0}
-          m_MaxValue: {x: -1, y: 1, z: 0}
-          m_MinMagnitude: {x: 0, y: 0, z: 0}
-        m_CameraRecoilAccumulation: 0
-        m_LocalizeRecoilForce: 0
-    - rid: 953176576307495046
-      type: {class: CrosshairsSpread, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
-      data:
-        m_States:
-        - m_Name: Default
-          m_Preset: {fileID: 0}
-          m_BlockList: []
-          m_Default: 1
-        m_Bindings:
-          m_Bindings: []
-        m_Enabled: 1
-        m_ID: -1
-        m_Name: 
-    - rid: 953176576307495047
+    - rid: 953176634573717614
       type: {class: GenericItemEffects, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -756,7 +669,7 @@ MonoBehaviour:
         m_Name: 
         m_EffectGroup:
           m_Effects: []
-    - rid: 953176576307495048
+    - rid: 953176634573717615
       type: {class: GenericShootableImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -771,15 +684,15 @@ MonoBehaviour:
         m_Name: 
         m_Conditions:
           m_ImpactActionConditions:
-          - rid: 953176576307495053
+          - rid: 953176634573717620
         m_ImpactActions:
           m_ImpactActions:
-          - rid: 953176576307495054
-          - rid: 953176576307495055
-          - rid: 953176576307495056
+          - rid: 953176634573717621
+          - rid: 953176634573717622
+          - rid: 953176634573717623
         m_FailImpactActions:
           m_ImpactActions: []
-    - rid: 953176576307495049
+    - rid: 953176634573717616
       type: {class: GenericReloader, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -802,7 +715,7 @@ MonoBehaviour:
         m_ReloadCrosshairsSpread: 1
         m_ReloadAnimatorAudioStateSet:
           m_AnimatorAudioStateSelector:
-            rid: 953176576307495057
+            rid: 953176634573717624
           m_States: []
         m_ReloadEvent:
           m_WaitForAnimationEvent: 1
@@ -849,7 +762,7 @@ MonoBehaviour:
           m_ThirdPerson:
             m_ID: -1
             m_Object: {fileID: 0}
-    - rid: 953176576307495050
+    - rid: 953176634573717617
       type: {class: DryFireSubstate, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -867,7 +780,7 @@ MonoBehaviour:
           m_Index: 11
           m_Priority: 200
         m_PreventAutoWhileDry: 1
-    - rid: 953176576307495051
+    - rid: 953176634573717618
       type: {class: SlotItemMonitorModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -883,11 +796,11 @@ MonoBehaviour:
         m_Priority: 0
         m_ShowLoaded: 1
         m_ShowUnloaded: 1
-    - rid: 953176576307495052
+    - rid: 953176634573717619
       type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
-    - rid: 953176576307495053
+    - rid: 953176634573717620
       type: {class: CheckTargetImpactConditionBehaviour, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -898,7 +811,7 @@ MonoBehaviour:
         m_Bindings:
           m_Bindings: []
         m_Enabled: 1
-    - rid: 953176576307495054
+    - rid: 953176634573717621
       type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -915,12 +828,12 @@ MonoBehaviour:
         m_SetDamageImpactData: 1
         m_InvokeOnObjectImpact: 0
         m_DamageProcessor: {fileID: 0}
-        m_DamageAmount: 10
-        m_ImpactForce: 5
+        m_DamageAmount: 5
+        m_ImpactForce: 2
         m_ImpactForceFrames: 15
         m_ImpactRadius: 0
         m_ScaleDamageByImpactStrength: 0
-    - rid: 953176576307495055
+    - rid: 953176634573717622
       type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -934,8 +847,8 @@ MonoBehaviour:
         m_Delay: 0
         m_AllowMultiHits: 0
         m_UseContextData: 1
-        m_SurfaceImpact: {fileID: 11400000, guid: 69f9bfe74da34194b9883d9680750627, type: 2}
-    - rid: 953176576307495056
+        m_SurfaceImpact: {fileID: 0}
+    - rid: 953176634573717623
       type: {class: ImpactEvent, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -947,14 +860,110 @@ MonoBehaviour:
           m_Bindings: []
         m_Enabled: 1
         m_Delay: 0
-        m_AllowMultiHits: 1
+        m_AllowMultiHits: 0
         m_CallImpactCallbackOnOriginator: 1
         m_CallImpactCallbackOnTarget: 1
-    - rid: 953176576307495057
+    - rid: 953176634573717624
       type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
-    - rid: 953176600542183529
+    - rid: 953176634573717685
+      type: {class: MuzzleEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
+      data:
+        m_States:
+        - m_Name: Default
+          m_Preset: {fileID: 0}
+          m_BlockList: []
+          m_Default: 1
+        m_Bindings:
+          m_Bindings: []
+        m_Enabled: 1
+        m_ID: -1
+        m_Name: 
+        m_MuzzleFlash: {fileID: 161002, guid: 489aba68c9dfe9342accb1f3a0be4e5b, type: 3}
+        m_PoolMuzzleFlash: 1
+        m_MuzzleLocation:
+          m_FirstPerson:
+            m_ID: -1
+            m_Object: {fileID: 0}
+          m_ThirdPerson:
+            m_ID: -1
+            m_Object: {fileID: 6531097987263896088}
+    - rid: 953176634573717686
+      type: {class: ShellEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
+      data:
+        m_States:
+        - m_Name: Default
+          m_Preset: {fileID: 0}
+          m_BlockList: []
+          m_Default: 1
+        m_Bindings:
+          m_Bindings: []
+        m_Enabled: 1
+        m_ID: -1
+        m_Name: 
+        m_Shell: {fileID: 0}
+        m_ShellVelocity:
+          m_MinValue: {x: 3, y: 0, z: 0}
+          m_MaxValue: {x: 4, y: 2, z: 0}
+          m_MinMagnitude: {x: 0, y: 0, z: 0}
+        m_ShellTorque:
+          m_MinValue: {x: -50, y: -50, z: -50}
+          m_MaxValue: {x: 50, y: 50, z: 50}
+          m_MinMagnitude: {x: 0, y: 0, z: 0}
+        m_ShellEjectDelay: 0
+        m_ShellLocation:
+          m_FirstPerson:
+            m_ID: -1
+            m_Object: {fileID: 0}
+          m_ThirdPerson:
+            m_ID: -1
+            m_Object: {fileID: 5568851514246474137}
+    - rid: 953176634573717687
+      type: {class: RecoilEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
+      data:
+        m_States:
+        - m_Name: Default
+          m_Preset: {fileID: 0}
+          m_BlockList: []
+          m_Default: 1
+        m_Bindings:
+          m_Bindings: []
+        m_Enabled: 1
+        m_ID: -1
+        m_Name: 
+        m_PositionRecoil:
+          m_MinValue: {x: 0, y: 0, z: -0.3}
+          m_MaxValue: {x: 0, y: 0.01, z: -0.1}
+          m_MinMagnitude: {x: 0, y: 0, z: 0}
+        m_RotationRecoil:
+          m_MinValue: {x: -0.5, y: -0.5, z: 0}
+          m_MaxValue: {x: 0.5, y: 0.5, z: 0}
+          m_MinMagnitude: {x: 0, y: 0, z: 0}
+        m_PositionCameraRecoil:
+          m_MinValue: {x: 0, y: 0, z: 0}
+          m_MaxValue: {x: 0, y: 0, z: 0}
+          m_MinMagnitude: {x: 0, y: 0, z: 0}
+        m_RotationCameraRecoil:
+          m_MinValue: {x: -2, y: -1, z: 0}
+          m_MaxValue: {x: -1, y: 1, z: 0}
+          m_MinMagnitude: {x: 0, y: 0, z: 0}
+        m_CameraRecoilAccumulation: 0
+        m_LocalizeRecoilForce: 0
+    - rid: 953176634573717688
+      type: {class: CrosshairsSpread, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
+      data:
+        m_States:
+        - m_Name: Default
+          m_Preset: {fileID: 0}
+          m_BlockList: []
+          m_Default: 1
+        m_Bindings:
+          m_Bindings: []
+        m_Enabled: 1
+        m_ID: -1
+        m_Name: 
+    - rid: 953176634573717689
       type: {class: GenericItemEffects, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -969,8 +978,8 @@ MonoBehaviour:
         m_Name: 
         m_EffectGroup:
           m_Effects:
-          - rid: 953176600542183532
-    - rid: 953176600542183532
+          - rid: 953176634573717690
+    - rid: 953176634573717690
       type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Effect, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
@@ -990,7 +999,7 @@ MonoBehaviour:
           - {fileID: 8300000, guid: c80cfae610d4ffe4db400e4efc746b15, type: 3}
           - {fileID: 8300000, guid: aaab68eccc1f78c4b89b58f1f1ce2b8d, type: 3}
           - {fileID: 8300000, guid: 26d7a8c629ee09f4ab40b3f0be069693, type: 3}
---- !u!1 &5815550957726833557
+--- !u!1 &6963578385705932478
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -998,57 +1007,81 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8895538641807025630}
-  m_Layer: 0
-  m_Name: FirePointLocation
+  - component: {fileID: 7720900677283056075}
+  - component: {fileID: 4293441376506518789}
+  - component: {fileID: 8425314220993588258}
+  m_Layer: 30
+  m_Name: ThirdPersonMyPulse_Rifle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8895538641807025630
+--- !u!4 &7720900677283056075
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5815550957726833557}
+  m_GameObject: {fileID: 6963578385705932478}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1.855, y: 0.09, z: -0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 9120653867155724847}
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!1 &7606254863692027880
-GameObject:
+  m_Father: {fileID: 4202214224624585704}
+  m_LocalEulerAnglesHint: {x: 0, y: 94.249, z: 0}
+--- !u!33 &4293441376506518789
+MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6055948761501878234}
-  m_Layer: 0
-  m_Name: MuzzleFlashLocation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6055948761501878234
-Transform:
+  m_GameObject: {fileID: 6963578385705932478}
+  m_Mesh: {fileID: -1463823995199888294, guid: 4ef3d7fc1da11b44e8ede5e3e9c3a4ac, type: 3}
+--- !u!23 &8425314220993588258
+MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7606254863692027880}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.041, y: 0.242, z: 0.027}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9120653867155724847}
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_GameObject: {fileID: 6963578385705932478}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 50a48c8448f6daa4285218f987ae729f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

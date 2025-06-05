@@ -106,6 +106,7 @@ namespace Opsive.DeathmatchAIKit.AI.Actions
             for (int i = m_WeaponPool.Count - 1; i > -1; --i) {
                 // The agent has to have the weapon.
                 if (m_Inventory.GetItemIdentifierAmount(m_WeaponPool[i].Item.ItemIdentifier) == 0) {
+                   
                     m_WeaponPool.RemoveAt(i);
                     continue;
                 }
